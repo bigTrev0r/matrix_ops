@@ -1,5 +1,6 @@
 import fractions
 
+#all done circa 2023
 #utility matrix class, assumes matrices are lists of rows
 #I advise making sure matrices are lists of fraction types, otherwise inversions get impercise, and they wont cancel out to the identity matrix
 #all naive implementations of matrix operations, all done by Trevor Bohl (though I hardly think anyone would plagarize this, and honestly if
