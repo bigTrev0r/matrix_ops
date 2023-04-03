@@ -8,7 +8,7 @@ class matrix:
 
     #transposes given matrix, returns the new matrix
     def transpose(a:list) -> list:
-        return [list([x[i] for x in a]) for i,x in enumerate(a)] 
+        return [list([x[i] for x in a]) for i,x in enumerate(a[0])] 
     
     #multiplies one matrix by another. the number of columns in a must of course be equal to the number of rows in b. returns the resulting matrix.
     def mult(a:list,b:list) -> list:
